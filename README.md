@@ -12,6 +12,6 @@ repositories {
 * Add dependencies to your **module** build.gradle file:
 ```
 dependencies {
-    implementation 'com.github.SavinMike:alicebot:v0.1.0'
+    implementation 'com.github.SavinMike:alicebot:0.1.0'
 }
 ```
