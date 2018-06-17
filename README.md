@@ -9,7 +9,7 @@ repositories {
     maven { url "https://jitpack.io" }
 }
 ```
-* Add dependencies to your **module** build.gradle file:
+* Add the code to your **module's** build.gradle file:
 ```
 dependencies {
     implementation 'com.github.SavinMike:alicebot:0.1.0'
