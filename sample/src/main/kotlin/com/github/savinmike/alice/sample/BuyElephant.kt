@@ -10,7 +10,7 @@ import com.github.savinmike.alice.model.event.welcome
 import com.github.savinmike.alice.model.mapper.wrapToResponseData
 import io.ktor.server.netty.Netty
 
-fun main(args: Array<String>) {
+fun main() {
     val alice = alice {
         webhook = "alice-webhook"
         applicationEngineFactory = Netty
