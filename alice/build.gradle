@@ -4,10 +4,11 @@ apply plugin: 'kotlin'
 apply plugin: 'maven'
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${core.kotlinVersion}"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${core.kotlinVersion}"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:${core.kotlinCoroutinesVersion}"
 
-    compile "io.ktor:ktor-gson:${libs.ktor}"
-    compile "io.ktor:ktor-server-host-common:${libs.ktor}"
+    implementation "io.ktor:ktor-gson:${libs.ktor}"
+    implementation "io.ktor:ktor-server-host-common:${libs.ktor}"
 }
 
 install {
