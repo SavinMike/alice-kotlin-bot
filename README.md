@@ -45,6 +45,6 @@ repositories {
 * Add the code to your **module's** build.gradle file:
 ```
 dependencies {
-    implementation 'com.github.SavinMike:alice-kotlin-bot:0.1.0'
+    implementation 'com.github.SavinMike:alice-kotlin-bot:0.1.1'
 }
 ```
